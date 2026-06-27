@@ -265,7 +265,7 @@ Zero-dependency (stdlib only) HTTP client for the Ollama `/api/generate` endpoin
 
 ## Results summary
 
-All outputs land in `results/`. Pre-computed results from the original runs are included in the repository.
+All outputs land in `results/`. Pre-computed results from the original runs are included in the repository. See [`results/README.md`](results/README.md) for full tables, figures, and per-experiment observations.
 
 | Experiment | Output files |
 |------------|-------------|
