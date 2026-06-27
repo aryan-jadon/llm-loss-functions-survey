@@ -1,0 +1,8 @@
+method,ranking_accuracy,length_reward_corr,delta_length_coef,gamma_quality_coef,family
+DPO,0.7764,0.6336,0.2694,0.1468,length-biased
+IPO,0.714,0.7781,0.0325,0.012,length-biased
+CPO,0.7617,0.674,0.5231,0.2567,length-biased
+KTO,0.7719,0.6448,12.029,6.3711,length-biased
+REBEL,0.9222,-0.0147,0.0036,0.073,length-robust
+SimPO,1.0,-0.0008,-3.9148,3.0059,length-robust
+ORPO,1.0,-0.0008,48.3836,42.9859,length-robust

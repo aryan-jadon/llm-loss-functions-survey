@@ -1,0 +1,4 @@
+strategy,accuracy,n_problems,n_samples,model
+greedy_pass@1,1.0,20,1,qwen2.5:7b
+majority_vote,1.0,20,8,qwen2.5:7b
+best_of_n_oracle,1.0,20,8,qwen2.5:7b

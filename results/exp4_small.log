@@ -1,0 +1,32 @@
+
+=== Experiment 4: verifiable rewards (best-of-N + majority) ===
+model=qwen2.5:0.5b  N=8  problems=20  temp=0.8
+
+  [ 1/20] gold=624  greedy=n  maj@8=n  best@8=n
+  [ 2/20] gold=35  greedy=n  maj@8=Y  best@8=Y
+  [ 3/20] gold=41  greedy=n  maj@8=n  best@8=Y
+  [ 4/20] gold=16  greedy=n  maj@8=n  best@8=n
+  [ 5/20] gold=990  greedy=n  maj@8=n  best@8=n
+  [ 6/20] gold=42  greedy=Y  maj@8=Y  best@8=Y
+  [ 7/20] gold=5  greedy=n  maj@8=n  best@8=Y
+  [ 8/20] gold=72  greedy=Y  maj@8=Y  best@8=Y
+  [ 9/20] gold=3  greedy=Y  maj@8=Y  best@8=Y
+  [10/20] gold=10  greedy=Y  maj@8=Y  best@8=Y
+  [11/20] gold=6  greedy=n  maj@8=n  best@8=Y
+  [12/20] gold=33  greedy=Y  maj@8=Y  best@8=Y
+  [13/20] gold=8  greedy=Y  maj@8=Y  best@8=Y
+  [14/20] gold=29  greedy=Y  maj@8=Y  best@8=Y
+  [15/20] gold=8  greedy=Y  maj@8=Y  best@8=Y
+  [16/20] gold=39  greedy=Y  maj@8=Y  best@8=Y
+  [17/20] gold=9  greedy=n  maj@8=Y  best@8=Y
+  [18/20] gold=8  greedy=Y  maj@8=Y  best@8=Y
+  [19/20] gold=6  greedy=n  maj@8=Y  best@8=Y
+  [20/20] gold=5  greedy=Y  maj@8=Y  best@8=Y
+
+--- Accuracy ---
+  greedy (pass@1)        : 0.550
+  majority@8 (self-consist.): 0.700
+  best-of-8 (oracle/pass@N): 0.850
+
+Saved: /Users/aryanj/Desktop/Research-Papers/Loss-Function-LLMS-Paper/experiments/results/exp4_verifiable_small.csv
+Expectation (paper): best-of-N >= majority@N >= greedy. Verifiable rewards turn extra inference compute into accuracy gains.

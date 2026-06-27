@@ -1,0 +1,7 @@
+metric,value
+n_problems,15
+n_traces_per_problem,3
+total_traces,45
+accepted_traces,45
+acceptance_rate,1.0
+coverage,1.0

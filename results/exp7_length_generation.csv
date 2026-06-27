@@ -1,0 +1,6 @@
+method,gen_length,gen_length_minus_ref,quality
+DPO,54.0895,+47.6748,-0.3204
+R-DPO,71.8238,+65.4090,-0.4347
+SimPO,5.4890,-0.9257,+0.2405
+SLiC,50.0215,+43.6068,-0.5676
+REFERENCE,6.4147,+0.0000,-0.6104

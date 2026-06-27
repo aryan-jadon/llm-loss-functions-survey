@@ -1,0 +1,3 @@
+method,grad_separated,grad_needswork,ratio_work_over_sep,frac_grad_mass_on_needswork
+DPO,0.500000,0.500000,1.0000,0.5000
+TDPO,0.075858,0.500000,6.5912,0.8683
